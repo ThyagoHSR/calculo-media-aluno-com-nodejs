@@ -6,7 +6,8 @@ const Nota1 = parseInt(args['Nota1']);
 const Nota2 = parseInt(args['Nota2']);
 
 
-const notaTotal = notaAluno(Nota1, Nota2);  // Just use the parsed values directly
+const notaTotal = notaAluno(Nota1, Nota2);
+
 
 if (isNaN(notaTotal)) {
 
